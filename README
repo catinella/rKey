@@ -1,2 +1,37 @@
-# rKey
-Resistor-key-locker for generic old motorbikes or cars.
+#-----------------------------------------------------------------------------------------------------------------------------------
+                          ____           _     _               _                _            _             
+                         |  _ \ ___  ___(_)___| |_ ___  _ __  | | _____ _   _  | | ___   ___| | _____ _ __ 
+                         | |_) / _ \/ __| / __| __/ _ \| '__| | |/ / _ \ | | | | |/ _ \ / __| |/ / _ \ '__|
+                         |  _ <  __/\__ \ \__ \ || (_) | |    |   <  __/ |_| | | | (_) | (__|   <  __/ |   
+                         |_| \_\___||___/_|___/\__\___/|_|    |_|\_\___|\__, | |_|\___/ \___|_|\_\___|_|   
+                                                                        |___/                              
+
+#-----------------------------------------------------------------------------------------------------------------------------------
+
+Description:
+	The project's goal is to provides all needed electronic circuits to realize a resistor-key-locker for generic old motorbikes
+	or cars where the electrical system is made just by electric wires glued together with tape, usually.
+	You can start the engine of these vehicles without key, in easily way. The key-locker has 4 electric wire, one is to disable
+	the sparkplugs, an other is to provide electricirty to the car's systems, and the other is to close the engine's starter
+	relay. So, a car thief have just to open the first cuple, close the second, and the start wire too. It requires 30 seconds
+
+	With the resistor key-locker, the main electric wires can be not accessible from the panel, for the thief should open the
+	car hood or unmount the motorbike to handle the main wires.
+	
+	Software:
+	=========
+		All electrical schemas and PCBs have been made using KiCAD-6
+
+	User's guide:
+	=============
+		The resistor key is a common connector plug (eg. DIB-9) with three resistors linked as shown in the rKey_plug circuit.
+		The resistors value are the secret sequence that defines your private key. Only that sequence will allow the main 
+		rKey circuit to turn on the motorbike (or car) services, in particular the engine start relay.
+		When you will change the key-plug sequence you will need to set again the rKey device. To achive this result you will
+		have to connect also the 6 leds monitor rKey_kset device. Then you will have to turn the potentiometers with a
+		screwdriver until all led become on.
+
+Files:
+	rKey_plug.*   This is the electric circuit of the resistor-key.
+	rKey_kset.*   This simple device helps you to set new keys
+	rKey.*        This is the device that recognize the key and turn on your bike/car
