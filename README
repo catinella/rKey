@@ -6,6 +6,7 @@
                          |_| \_\___||___/_|___/\__\___/|_|    |_|\_\___|\__, | |_|\___/ \___|_|\_\___|_|   
                                                                         |___/                              
 
+                                             Silvano Catinella <catinella@yahoo.com>
 #-----------------------------------------------------------------------------------------------------------------------------------
 
 Description:
@@ -30,6 +31,10 @@ Description:
 		When you will change the key-plug sequence you will need to set again the rKey device. To achive this result you will
 		have to connect also the 6 leds monitor rKey_kset device. Then you will have to turn the potentiometers with a
 		screwdriver until all led become on.
+
+BUGs:
+	Due to a KiCAD bug, the D1 diode component is shown in reverse direction, in the PCB. Please, when you solder it, consider the
+	electrical schema.
 
 Files:
 	rKey_plug.*   This is the electric circuit of the resistor-key.
