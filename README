@@ -37,6 +37,7 @@ BUGs:
 	electrical schema.
 
 Files:
-	rKey_plug.*   This is the electric circuit of the resistor-key.
-	rKey_kset.*   This simple device helps you to set new keys
-	rKey.*        This is the device that recognize the key and turn on your bike/car
+	rKey_plug.*      This schema is just for ducumentation purple. It shows you the resistor-key plug internal connections.
+	rKey_kset.*      This simple device is used to set new keys
+	rKey.*           This is the device that recognizes the private key and turn on the vehicle
+	rKey_motorBike.* This schema is just for ducumentation purple. It shows you the vehicle's internal connections
