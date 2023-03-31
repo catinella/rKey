@@ -345,7 +345,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "chiave_resistiva-2.2.kicad_pro",
+    "filename": "rKey.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -377,7 +377,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "chiave_resistiva-2.2.net",
+      "netlist": "rKey.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

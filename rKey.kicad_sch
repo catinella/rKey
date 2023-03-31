@@ -1903,7 +1903,7 @@
     (property "Value" "Conn_01x01" (id 1) (at 229.87 48.8949 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (id 2) (at 226.695 47.625 0)
+    (property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm" (id 2) (at 226.695 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 226.695 47.625 0)
@@ -2556,7 +2556,7 @@
     (property "Value" "Conn_01x01" (id 1) (at 229.87 52.0699 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (id 2) (at 226.695 50.8 0)
+    (property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm" (id 2) (at 226.695 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 226.695 50.8 0)
@@ -2635,10 +2635,10 @@
       (reference "J1") (unit 1) (value "Conn_01x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/11708a30-c91b-488f-863d-ad12f67b2667"
-      (reference "JB1") (unit 1) (value "Conn_01x01") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+      (reference "JB1") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm")
     )
     (path "/d08ed67d-1982-43cb-9cfe-2962c7845c1d"
-      (reference "JB2") (unit 1) (value "Conn_01x01") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+      (reference "JB2") (unit 1) (value "Conn_01x01") (footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm")
     )
     (path "/14ba7033-cfbd-4a12-a6b6-d2854f5d2505"
       (reference "Keylocker1") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
