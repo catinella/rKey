@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Kry plug circuit")
+    (title "Key plug circuit")
     (date "12/3/2023")
     (rev "1.0")
     (company "Panicosoft")
@@ -260,6 +260,11 @@
     (at 100.33 88.265 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 08be3593-bc6d-4e2f-a176-493a654156f5)
+  )
+  (text "This circuit shows you how to build your resistor-key.\nUse an IPV6 8-connector to implement the circuit."
+    (at 102.235 114.935 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 91568ffe-60cf-451a-a6fe-8594c5f490a7)
   )
 
   (symbol (lib_id "Device:R") (at 133.35 97.155 0) (unit 1)
