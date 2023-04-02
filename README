@@ -32,9 +32,21 @@ Description:
 		have to connect also the 6 leds monitor rKey_kset device. Then you will have to turn the potentiometers with a
 		screwdriver until all led become on.
 
+
+Devices building:
+	About the PCBs creation I have used the MD srl company service. So, in order to create a copy, you can contact the company
+	(https://www.mdsrl.it) and use the following order numbers, it will allow you to save some money.
+		+-----------+-------------------------------------------+----------+
+		|    PCB    |                GIT file version           | MD order |
+		+-----------+-------------------------------------------+----------+
+		|    rKey   | e351db6d4d3948a26f15b0ab6ca531b46df5ecea  |   80671  |
+		| rKey_kset | 2eb40bbb577aa54c87631816eae3e63fc1c5e8e8  |   80661  |
+		+-----------+-------------------------------------------+----------+
+
 BUGs:
 	Due to a KiCAD bug, the D1 diode component is shown in reverse direction, in the PCB. Please, when you solder it, consider the
 	electrical schema.
+
 
 Files:
 	rKey_plug.*      This schema is just for ducumentation purple. It shows you the resistor-key plug internal connections.
