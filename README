@@ -39,13 +39,15 @@ Devices building:
 		+-----------+-------------------------------------------+----------+
 		|    PCB    |                GIT file version           | MD order |
 		+-----------+-------------------------------------------+----------+
-		|    rKey   | 509eb3740a7ce829d98c515bcb10e46056786872  |   81029  |
+		|    rKey   | 39d1ce673cf8d08d6453aca2858b5e5c3bd86c2e  |   81141  |
 		| rKey_kset | 2eb40bbb577aa54c87631816eae3e63fc1c5e8e8  |   80661  |
 		+-----------+-------------------------------------------+----------+
 
+
 BUGs:
-	Due to a KiCAD bug, the D1 diode component is shown in reverse direction, in the PCB. Please, when you solder it, consider the
-	electrical schema.
+	Differently by the usual vehicle key locker device, this one do not manage the CDI engine stop pin. It means, you should use
+	a NC relay controlled by the same output you should use for the services' power relay. This deficency will be fixed in another
+	version/branch
 
 
 Files:
