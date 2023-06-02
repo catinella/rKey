@@ -44,11 +44,10 @@ Devices building:
 		+-----------+-------------------------------------------+----------+
 
 BUGs:
-	Due to a KiCAD bug, the D1 diode component is shown in reverse direction, in the PCB. Please, when you solder it, consider the
-	electrical schema.
 
 
 Files:
+	kicad_symbols    This folder contains customized symbols used by the project. You need them to open the electric schema/PCB
 	rKey_plug.*      This schema is just for ducumentation purple. It shows you the resistor-key plug internal connections.
 	rKey_kset.*      This simple device is used to set new keys
 	rKey.*           This is the device that recognizes the private key and turn on the vehicle
