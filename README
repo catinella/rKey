@@ -32,6 +32,17 @@ Description:
 		have to connect also the 6 leds monitor rKey_kset device. Then you will have to turn the potentiometers with a
 		screwdriver until all led become on.
 
+	No relay version:
+	=================
+		This version is not based on an external relay. Instead, it uses two D45VH10 Power PNP to drive the electricity power
+		inside the vehicle when you plug the right key in the device's socket. This version allows you to reduce the external
+		components and also the system size (it is a very important advantages on motorbikes), but this solution has some limit
+		too. The D45VH10 Transistor has been developed for switching applications, and compared to other power transistors it
+		has very low VCE(sat) (Ic=5A --> VCE=0.3V), but this value grows to 1A when the current achieve 10A. So, because this
+		rKey version uses two D45VH10, it means your vehicle serices should not require more then 10A (5A * 2), and in this
+		configuration your resistive-key system would waste only 3W to provide the current and (120mA * 2 * 12V) 2.8W to
+		drive the transistors (tot 4.83% of total power), in the worst case.
+
 
 Devices building:
 	About the PCBs creation I have used the MD srl company service. So, in order to create a copy, you can contact the company
@@ -39,9 +50,16 @@ Devices building:
 		+-----------+-------------------------------------------+----------+
 		|    PCB    |                GIT file version           | MD order |
 		+-----------+-------------------------------------------+----------+
-		|    rKey   | 509eb3740a7ce829d98c515bcb10e46056786872  |   81029  |
+		|    rKey   |                                           |          |
 		| rKey_kset | 2eb40bbb577aa54c87631816eae3e63fc1c5e8e8  |   80661  |
 		+-----------+-------------------------------------------+----------+
+
+	PCB building details:
+	=====================
+		Every PNP power transistors has to drive 5A current, in the worst case. For this reason the circuit tracks linked to
+		their collector and emitter pins have been enlarged to 2mm and replicated on the other PCB's side. It means every
+		track has 4mm size, virtually. Considering the construction standards it could be enough, but to preserve the PCB's
+		life, you should require at the least, 70um high tracks.
 
 BUGs:
 
