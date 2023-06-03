@@ -1131,7 +1131,7 @@
     (tags "TO-220-3 Vertical RM 2.54mm")
     (property "Sheetfile" "rKey.kicad_sch")
     (property "Sheetname" "")
-    (path "/9a81e5cf-c010-4ad2-bd79-595ceaad1b5f")
+    (path "/14c7d7ce-6750-4fe7-955b-22be3307137b")
     (attr through_hole)
     (fp_text reference "Q6" (at 2.54 -4.27 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1166,7 +1166,7 @@
     (pad "1" thru_hole rect (at 0 0 270) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 31 "Net-(R18-Pad2)") (pintype "input") (tstamp c3615095-5635-400c-b1fb-5d26d61b1026))
     (pad "2" thru_hole oval (at 2.54 0 270) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask)
-      (net 21 "Net-(J1-Pad1)") (pintype "input") (tstamp 962c025d-80b4-4072-b7ed-a69eb6d6a120))
+      (net 21 "Net-(J1-Pad1)") (pintype "power_out") (tstamp 962c025d-80b4-4072-b7ed-a69eb6d6a120))
     (pad "3" thru_hole oval (at 5.08 0 270) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 6 "Net-(J1-Pad3)") (pintype "input") (tstamp 0f8bde12-54ce-4987-a96f-7576a1ff9e38))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl"
@@ -1757,7 +1757,7 @@
     (tags "TO-220-3 Vertical RM 2.54mm")
     (property "Sheetfile" "rKey.kicad_sch")
     (property "Sheetname" "")
-    (path "/ac45dc99-73c0-423a-948f-81c2d6e2bd80")
+    (path "/73941dde-d579-49e5-8c53-4f66b9b698d2")
     (attr through_hole)
     (fp_text reference "Q7" (at 2.54 -4.27 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1792,7 +1792,7 @@
     (pad "1" thru_hole rect (at 0 0 270) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 8 "Net-(R10-Pad2)") (pintype "input") (tstamp 3fe7b918-206a-48bb-b9a4-098447773e78))
     (pad "2" thru_hole oval (at 2.54 0 270) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask)
-      (net 21 "Net-(J1-Pad1)") (pintype "input") (tstamp 340c464f-b3b5-4b6e-b28e-61f7a7473f8e))
+      (net 21 "Net-(J1-Pad1)") (pintype "power_out") (tstamp 340c464f-b3b5-4b6e-b28e-61f7a7473f8e))
     (pad "3" thru_hole oval (at 5.08 0 270) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 6 "Net-(J1-Pad3)") (pintype "input") (tstamp c1e68fe9-d25a-447f-9cb8-790793e63d27))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl"
