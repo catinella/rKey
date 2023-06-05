@@ -45,9 +45,8 @@ Devices building:
 
 
 BUGs:
-	Differently by the usual vehicle key locker device, this one do not manage the CDI engine stop pin. It means, you should use
-	a NC relay controlled by the same output you should use for the services' power relay. This deficency will be fixed in another
-	version/branch
+	This version uses a diode. When you mount the components, remember KiCAD can show the component in wrong versus. Please,
+	consider the electric schema.
 
 
 Files:
