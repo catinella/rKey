@@ -32,8 +32,8 @@ Description:
 		have to connect also the 6 leds monitor rKey_kset device. Then you will have to turn the potentiometers with a
 		screwdriver until all led become on.
 
-	No relay version:
-	=================
+	No external relay version:
+	==========================
 		This version is not based on an external relay. Instead, it uses two D45VH10 Power PNP to drive the electricity power
 		inside the vehicle when you plug the right key in the device's socket. This version allows you to reduce the external
 		components and also the system size (it is a very important advantages on motorbikes), but this solution has some limit
