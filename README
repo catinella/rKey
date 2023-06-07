@@ -45,8 +45,6 @@ Devices building:
 
 
 BUGs:
-	This version uses a diode. When you mount the components, remember KiCAD can show the component in wrong versus. Please,
-	consider the electric schema.
 
 
 Files:
